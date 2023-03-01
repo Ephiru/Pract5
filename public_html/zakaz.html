@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="UTF-8">
+		<title>
+			Заказ
+		</title>
+    </head>
+	<body>
+		<h1 color="#0000FF">
+			Заказ проекта
+		</h1>
+		<p>
+			Вы можете послать письмо на наш электронный адрес
+		</p>
+		<a href="mailto:quist@rambler.ru">
+			Написать письмо
+		</a> 
+		<p>
+			Здесь Вы можете заполнить форму заказа для покупки проекта <br>Поля с * обязательны для заполнения
+		</p>
+		<form>
+			<table>
+				<tr>
+					<td>
+						Текст заказа в произвольной форме
+					</td>
+					<td>
+						<input type="textarea">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Фамалия, имя, отчество*
+					</td>
+					<td>
+						<input type="text" maxlength="50">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Телефон*
+					</td>
+					<td>
+						<input type="password" maxlength="20">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						E-mail*
+					</td>
+					<td>
+						<input type="text" maxlength="50">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Адрес*
+					</td>
+					<td>
+						<input type="text" maxlength="50">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Выберите категорию проекта:
+					</td>
+					<td>
+						<select name="kategoria">
+							<option value="townhouse"/>Проекты таунхаусов и блокированных домов
+							<option value="two_family"/>Проекты домов на две семьи
+							<option value="uzkie"/>Проекты узких домов
+							<option value="banya"/>Проекты бань
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Выберите материал:
+					</td>
+					<td>
+						<select name="material">
+							<option value="kirpich"/>Проекты кирпичных домов
+							<option value="gazo_peno"/>Проекты домов их газобетона и пенобетона
+							<option value="brus_brevno"/>Проекты домов из бруса и бревна
+							<option value="karkas"/>Проекты каркасных домов
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Ваш возраст:
+					</td>
+					<td>
+						<input type="radio" name="age" value="18"/>до 18
+						<br><input type="radio" name="age" value="18-50"/>18-50
+						<br><input type="radio" name="age" value="50+"/>Старше 50
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td>
+						<input type="submit" value="Отправить"/>
+					</td>
+					<td>
+						<input type="reset">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
